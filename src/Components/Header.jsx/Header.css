@@ -1,0 +1,36 @@
+.header-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    padding: 0 1.5rem;
+    height: 4.5rem;
+    align-items: center;        
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+.header-main nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 100%;
+}
+
+.header-main-group ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;    
+}
+
+.header-main-group ul li {
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+}
+
+.header-main-title {
+    font-size: 2.5rem;
+    font-style:italic;
+    text-transform: uppercase;
+}
