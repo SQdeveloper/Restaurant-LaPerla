@@ -1,0 +1,39 @@
+.button-ancle {        
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.button-ancle:hover > svg {
+    background-color: var(--color-brown);
+}
+
+.button-ancle:hover > span {
+    transform: none;
+}
+
+.button-ancle svg {
+    fill: white;
+    width: 75px;
+    height: 75px;    
+    border-radius: 50%;
+    border: 1px solid var(--color-brown);
+    padding: 1.5rem;
+    transition: background-color .3s;
+}
+
+.button-ancle span {
+    display: block;
+    transform: translateX(-27px);
+    height: 2.8rem;
+    display: flex;
+    align-items: center;;
+    background-color: black;
+    transition: transform .5s;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .8rem;
+}

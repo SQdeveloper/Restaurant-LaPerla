@@ -1,3 +1,7 @@
 #root {
   width: 100%;
 }
+
+.app {
+  background-color: black;
+}

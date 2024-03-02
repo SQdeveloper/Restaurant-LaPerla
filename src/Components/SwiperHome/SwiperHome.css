@@ -1,0 +1,77 @@
+.swiper {
+    height: 40rem;
+    width: 100%;        
+    margin: 0 auto;
+    margin-top: 3rem;            
+}
+
+.swiper-box {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    width: 80%;
+    margin: 1.5rem auto;        
+}
+
+.swiper-box-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;    
+}
+
+.swiper-image {
+    width: 60%;
+    height: 33rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper-title {
+    font-size: 2.5rem;
+    margin: .5rem 0;
+}
+
+.swiper-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 15rem;
+    stroke: var(--color-brown);
+    stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: var(--color-brown);    
+    transform: translate(-50%, -50%);    
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: var(--color-brown);
+}
+
+.swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
+    top: 95%;
+    width: 70%;
+    left: 5%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 95%;
+    color: var(--color-brown);
+    height: 54px;
+    width: 54px;
+    border: 1px solid var(--color-brown);
+    border-radius: 50%;    
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 1.5rem;
+}
+
+.swiper-button-prev {
+    left: 87%;
+}
+
+.swiper-button-next {
+    left: 93%;    
+}

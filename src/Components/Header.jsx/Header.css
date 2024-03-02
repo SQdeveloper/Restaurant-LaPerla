@@ -1,5 +1,5 @@
 .header-main {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;    
@@ -8,6 +8,7 @@
     align-items: center;        
     color: white;
     border-bottom: 1px solid gray;
+    z-index: 5;    
 }
 
 .header-main nav {
@@ -33,4 +34,12 @@
     font-size: 2.5rem;
     font-style:italic;
     text-transform: uppercase;
+}
+
+.header-main-ancle {
+    transition: color .3s;
+}
+
+.header-main-ancle:hover {
+    color: var(--color-brown);
 }

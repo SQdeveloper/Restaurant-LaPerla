@@ -1,3 +1,23 @@
+.description {
+    text-align: center;
+    background-color: black;
+    padding: 8rem 0;
+}
+
 .description-subtitle {
     color: var(--color-brown);
+    text-transform: uppercase;
+    font-size: 1rem;        
+    margin-bottom: 1.6rem;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;;
+    width: 60rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }

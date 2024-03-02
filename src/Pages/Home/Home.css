@@ -1,0 +1,90 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/* HOME ABOUT */
+
+.home-about {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1.5rem;    
+}
+
+.home-about-info {
+    flex: 1;
+}
+
+.home-about-info-subtitle {
+    text-transform: uppercase;    
+}
+
+.home-about-info h2 {
+    font-size: var(--size-title);
+    line-height: 4.8rem;
+    margin: 1rem 0 2rem;
+}
+
+.home-about-info p {
+    width: 75%;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;    
+    font-size: 1.1rem;
+    color: rgb(168, 168, 168);
+}
+
+
+.home-about-contImage {
+    position: relative;
+    flex: 1;
+}
+
+.home-about-contImage-chef {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-about-contImage-flower {
+    position: absolute;
+    width: 24rem;
+    height: 25rem;
+    object-fit: cover;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    padding: 1rem 1rem 0 0;
+    transform: translate(-40%, 70%);
+}
+
+
+/* HOME-ANGEBOT */
+
+.home-angebot {
+    padding: 0 1.5rem;
+    padding-top: 28rem;
+}
+
+.home-angebot-title {    
+    margin-top: 1.2rem;
+    font-size: var(--size-title);
+    line-height: 5.5rem;
+}
+
+.home-angebot-title span {
+    display: block;
+}
+
+.home-angebot-title span:nth-child(2) {
+    margin-left: 10rem;
+}
+
+.home-angebot-description {
+    margin-left: 40rem;
+    margin-top: 1.3rem;
+    width: 25rem;
+}
