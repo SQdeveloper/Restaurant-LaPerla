@@ -2,7 +2,7 @@
     height: 40rem;
     width: 100%;        
     margin: 0 auto;
-    margin-top: 3rem;            
+    margin-top: 3rem;             
 }
 
 .swiper-box {
@@ -11,6 +11,7 @@
     position: relative;
     width: 80%;
     margin: 1.5rem auto;        
+    cursor: pointer;
 }
 
 .swiper-box-info {

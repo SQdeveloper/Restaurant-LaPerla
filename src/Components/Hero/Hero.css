@@ -37,9 +37,7 @@
     display: block;
 }
 
-.hero-text-subtitle {
-    color: var(--color-brown);
-    font-weight: bold;
+.hero-text-subtitle {        
     letter-spacing: 2px;
 }
 

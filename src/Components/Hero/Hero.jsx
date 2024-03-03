@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section className='hero'>
             <div className="hero-text">
-                <span className='hero-text-subtitle'>Home</span>
+                <span className='hero-text-subtitle subtitle'>Home</span>
                 <div className="hero-text-main">
                     <span>ENJOY OUR GREATEST</span>
                     <span>DELIGHTS</span>

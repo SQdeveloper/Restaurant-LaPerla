@@ -88,3 +88,115 @@
     margin-top: 1.3rem;
     width: 25rem;
 }
+
+
+/* HOME EVENTS */
+
+.home-events {
+    padding: 0 1.5rem;
+    margin-top: 8rem;
+}
+
+.home-events-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.home-events-top > .home-events-image-left {
+    width: 33%;
+}
+
+.home-events-top > .home-events-image-left img {
+    width: 80%;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.home-events-top > .home-events-image-right {
+    position: relative;
+    width: 77%;
+    height: 35rem;
+}
+
+.home-events-top > .home-events-image-right::after {
+    content: '';
+    background: linear-gradient(rgba(0,0,0,.2) 100%, transparent);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;    
+}
+
+.home-events-top > .home-events-image-right img {
+    width: 55%;
+    height: 100%;
+    float: right;
+    object-fit: cover;
+    object-position: bottom center;    
+} 
+
+.home-events-middle {
+    width: fit-content;
+    text-align: center;    
+    transform: translateY(-120%);
+    margin-left: 12%;    
+}
+
+.home-events-middle h2 {
+    text-align: start;
+    font-size: 5.5rem;    
+    line-height: 5.2rem;
+    margin-top: 1.3rem;
+}
+
+.home-events-middle span {        
+    display: block;
+}
+
+.home-events-bottom {
+    display: flex;
+    width: 100%;
+    transform: translateY(-80%);
+}
+
+.home-events-bottom .home-events-image-left {
+    width: 50%;
+}
+
+.home-events-bottom .home-events-image-left img {
+    width: 45%;
+    height: 13rem;
+    float: right;
+    object-fit: cover;
+}
+
+.home-events-bottom .home-events-text-right {
+    width: 50%;
+}
+
+.home-events-text-right-group {    
+    border-top: 2px solid var(--color-brown);
+    padding-top: 2rem;
+    width: 65%;
+    float: right;
+    transform: translateY(50%);
+}
+
+
+/* HOME CLIENTS */
+
+.home-clients {
+    text-align: center;
+}
+
+.home-clients-title {
+    font-size: 5.5rem;
+}
+
+.home-clients-line {
+    width: 5rem;
+    border: none;
+    border-top: 2px solid var(--color-brown);
+    margin: 1.2rem auto 6rem auto;
+}

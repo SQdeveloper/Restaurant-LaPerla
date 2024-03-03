@@ -4,6 +4,7 @@ import Hero from '../../Components/Hero/Hero';
 import Button from '../../Components/Button/Button';
 import SwiperHome from '../../Components/SwiperHome/SwiperHome';
 import './Home.css';
+import SwiperClients from '../../Components/SwiperClients/SwiperClients';
 
 const Home = () => {    
     return (
@@ -29,8 +30,37 @@ const Home = () => {
                 <p className="home-angebot-description paragraph">Get an insight into our exquisite range of dishes and our diverse selection of quality wines.</p>
             </section>
             <SwiperHome/>
+            <section className="home-events">
+                <div className="home-events-top">
+                    <div className="home-events-image-left">
+                        <img src="/other-images/cops.webp" alt="image-food" />
+                    </div>
+                    <div className="home-events-image-right">
+                        <img src="/other-images/food-prepraing.webp" alt="image-food" />
+                    </div>
+                </div>
+                <div className="home-events-middle">
+                    <span className='subtitle'>EVENTS</span>
+                    <h2><span>KULINARISCHE</span><span>HIGHLIGHTS</span></h2>
+                </div>
+                <div className="home-events-bottom">
+                    <div className="home-events-image-left">
+                        <img src="/other-images/bottles-wine.webp" alt="image-food"/>
+                    </div>
+                    <div className="home-events-text-right">
+                        <div className="home-events-text-right-group">                            
+                            <p className="paragraph">We present new specialties, organize unforgettable events and look forward to welcoming you in person soon.</p>
+                            <Button text={'learn more'}/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='home-clients'>
+                <h2 className="home-clients-title">OUR CUSTOMERS</h2>
+                <hr className='home-clients-line'/>
+                <SwiperClients/>
+            </section>
         </section>
-        
     );
 };
 

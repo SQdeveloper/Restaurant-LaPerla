@@ -1,0 +1,16 @@
+.swiper-clients {    
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-brown);
+}

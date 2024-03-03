@@ -4,10 +4,8 @@
     padding: 8rem 0;
 }
 
-.description-subtitle {
-    color: var(--color-brown);
-    text-transform: uppercase;
-    font-size: 1rem;        
+.description-subtitle {    
+    text-transform: uppercase;    
     margin-bottom: 1.6rem;
 }
 

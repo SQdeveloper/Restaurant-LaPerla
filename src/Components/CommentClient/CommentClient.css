@@ -1,0 +1,19 @@
+.commentClient {
+    text-align: center;
+    padding: 0 0 4rem 0;
+}
+
+.commentClient-message {
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+.commentClient-name {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+}
