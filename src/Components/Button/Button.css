@@ -19,7 +19,10 @@
     width: 75px;
     height: 75px;    
     border-radius: 50%;
-    border: 1px solid var(--color-brown);
+    border-left: 1px solid var(--color-brown);
+    border-top: 1px solid var(--color-brown);
+    border-bottom: 1px solid var(--color-brown);
+    border-right: 1px solid transparent;
     padding: 1.5rem;
     transition: background-color .3s;
 }
@@ -30,7 +33,7 @@
     height: 2.8rem;
     display: flex;
     align-items: center;;
-    background-color: black;
+    /* background-color: black; */
     transition: transform .5s;
     font-family: "Roboto", sans-serif;
     font-weight: 400;

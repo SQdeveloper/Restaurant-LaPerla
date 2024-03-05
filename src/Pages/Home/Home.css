@@ -188,6 +188,7 @@
 
 .home-clients {
     text-align: center;
+    margin-top: 3.7rem;
 }
 
 .home-clients-title {
@@ -199,4 +200,56 @@
     border: none;
     border-top: 2px solid var(--color-brown);
     margin: 1.2rem auto 6rem auto;
+}
+
+/* HOME BANNER */
+
+.home-banner {
+    display: flex;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.home-banner-group {    
+    flex: 1;
+    height: 28rem;        
+}
+
+.home-banner-group-left, .home-banner-group-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.home-banner-group-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.home-banner-group-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+
+.home-banner-group-middle-title {
+    margin: 1rem 0 1.5rem;
+    font-weight: bolder;
+}
+
+.home-banner-group-middle-title span {
+    color: black;
+    display: block;
+    font-size: 2.2rem;
+}
+
+.home-banner-group-middle-line {
+    border: none;
+    width: 2.5rem;
+    border-bottom: 1px solid var(--color-brown);
 }

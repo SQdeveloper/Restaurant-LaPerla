@@ -1,0 +1,97 @@
+.footer {
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 5rem 1rem;
+    font-size: 1.2rem;
+    background:  linear-gradient(rgba(0,0,0,.9) 20%, 80%, transparent) , url('/other-images/bg-footer.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.footer span, .footer strong {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.footer-info-hours span {
+    font-weight: 300;
+}
+
+.footer-logo {
+    width: 15rem;
+}
+
+.footer-info-hours, .footer-info-contact {
+    display: flex; 
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.footer .footer-title {
+    font-size: 4.5rem;
+    width: 70%;
+    font-family: "Cormorant", serif;    
+}
+
+.footer-line {
+    border: noen;
+    border-bottom: 2px solid var(--color-brown);
+    width: 30rem;
+}
+
+.footer .button-ancle {
+    margin-top: 1rem;
+}
+
+.footer nav ul {
+    display: flex;    
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.footer nav a {
+    font-size: .85rem;
+    font-weight: bolder;
+    transition: color .3s;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer nav a:hover {
+    color: var(--color-brown);
+}
+
+.footer nav hr {
+    height: 1rem
+}
+
+.footer-redes {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-redes img {
+    width: 20px;
+    filter: invert(100%);
+    transition: filter .3s;
+}
+
+.footer-redes a:hover > img{
+    filter: invert(63%) sepia(5%) saturate(2344%) hue-rotate(348deg) brightness(93%) contrast(81%);
+}

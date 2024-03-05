@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;    
     padding: 0 1.5rem;
-    height: 4.5rem;
+    height: 5.5rem;
     align-items: center;        
     color: white;
     border-bottom: 1px solid gray;
@@ -34,6 +34,10 @@
     font-size: 2.5rem;
     font-style:italic;
     text-transform: uppercase;
+}
+
+.header-main-title img {
+    width: 12rem;
 }
 
 .header-main-ancle {

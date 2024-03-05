@@ -3,8 +3,8 @@ import Description from '../../Components/Description/Description';
 import Hero from '../../Components/Hero/Hero';
 import Button from '../../Components/Button/Button';
 import SwiperHome from '../../Components/SwiperHome/SwiperHome';
-import './Home.css';
 import SwiperClients from '../../Components/SwiperClients/SwiperClients';
+import './Home.css';
 
 const Home = () => {    
     return (
@@ -59,6 +59,25 @@ const Home = () => {
                 <h2 className="home-clients-title">OUR CUSTOMERS</h2>
                 <hr className='home-clients-line'/>
                 <SwiperClients/>
+            </section>
+            <section className="home-banner">
+                <div className="home-banner-group home-banner-group-left">
+                    <img src="/banner-images/chef-prepraring.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/chef-with-people.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/people-restaurant.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/gourmet.webp" alt="image about food" className="home-banner-group-img" />
+                </div>
+                <section className="home-banner-group home-banner-group-middle">
+                    <span className='subtitle'>Delicius</span>
+                    <h2 className='home-banner-group-middle-title'><span>AUTHENTIC</span> <span>IMPRESSIONS</span></h2>
+                    <hr className='home-banner-group-middle-line'/>                    
+                </section>
+                <div className="home-banner-group home-banner-group-right">
+                    <img src="/banner-images/chef-with-wine.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/multiple-plates.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/plates.webp" alt="image about food" className="home-banner-group-img" />
+                    <img src="/banner-images/snife.webp" alt="image about food" className="home-banner-group-img" />
+                </div>
             </section>
         </section>
     );

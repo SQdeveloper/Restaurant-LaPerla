@@ -12,7 +12,7 @@ const Header = () => {
                         <li><a className='header-main-ancle' href="">Events</a></li>
                     </ul>
                 </div>
-                <h1 className='header-main-title'>La Perla</h1>
+                <h1 className='header-main-title'><a href="/"><img src="/logo/logo-main.webp" alt="image of logo" /></a></h1>
                 <div className="header-main-right header-main-group">
                     <ul>
                         <li><a className='header-main-ancle' href="">About Us</a></li>
