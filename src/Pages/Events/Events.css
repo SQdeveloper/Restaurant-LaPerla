@@ -1,0 +1,17 @@
+.events {
+    text-align: center;
+    background-color: black;    
+    padding: 12rem 5rem 8rem 5rem;
+}
+
+.events-title {
+    font-size: 6.5rem;
+    text-transform: uppercase;;    
+}
+
+.events-group-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));        
+    gap: 3rem;
+    margin-top: 5rem;
+}
