@@ -4,15 +4,17 @@
     align-items: center;
     text-align: center;
     background-color: black;
-    padding: 5rem 1rem;
+    padding: 12rem 1rem 8rem 1rem;
 }
 
 .header-eventDetails-title {
     font-size: 6.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 
 .header-eventDetails-img {
-    height: 80svh;
-    width: 30rem;
+    height: 90svh;
+    width: 40rem;
     object-fit: cover;
 }

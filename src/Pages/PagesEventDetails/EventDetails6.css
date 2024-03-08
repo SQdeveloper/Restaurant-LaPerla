@@ -1,0 +1,61 @@
+.eventDetails-main-last {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 7rem 9rem;
+    gap: 1rem;
+}
+
+.eventDetails-main-last h2 ,.eventDetails-main-last p ,.eventDetails-main-last h3 {
+    color: black;
+}
+
+.eventDetails-main-last h2 {
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.eventDetails-main-last p {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;    
+    font-weight: 300;
+    color: rgb(83, 83, 83);
+    line-height: 1.65rem;
+}
+
+.eventDetails-main-last-group-images {
+    display: flex;
+    gap: 2rem;
+    margin: 1.1rem 0;
+}
+.eventDetails-main-last-group-images img:first-child{
+    border: 1px solid var(--color-brown);
+    width: 20rem;
+}
+
+.eventDetails-main-last-group-images img:nth-child(2){
+    flex: 1;
+}
+
+.eventDetails-main-last-group-images img {
+    object-fit: cover;
+    object-position: center;
+    height: 30rem;
+}
+
+.eventDetails-main-last .button-ancle {
+    margin-top: 1rem;
+}
+
+.eventDetails-main-last .button-ancle svg {
+    fill: var(--color-brown);
+    transition: background-color .3s , fill .3s;
+}
+
+.eventDetails-main-last .button-ancle:hover svg {
+    fill: white;
+}
+
+.eventDetails-main-last .button-ancle span {
+    color: black;
+}

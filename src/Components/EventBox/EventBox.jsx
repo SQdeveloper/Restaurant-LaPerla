@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './EventBox.css';
 
-const EventBox = ({event}) => {
+const EventBox = ({event,index}) => {
     return (
-        <Link to={`/events/details`} className='events-box' href="">
+        <Link to={`/events/details/${index + 1}`} className='events-box' href="">
             <div className="events-box-Bgimage">
                 <img src={event.image} alt="img-bg" />
             </div>

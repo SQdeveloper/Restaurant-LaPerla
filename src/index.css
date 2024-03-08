@@ -35,6 +35,10 @@ li {
   list-style: none;
 }
 
+input {
+  outline: none;
+}
+
 .subtitle {
   color: var(--color-brown);
   font-family: "Roboto", sans-serif;

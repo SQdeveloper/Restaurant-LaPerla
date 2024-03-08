@@ -1,0 +1,62 @@
+.eventDetails-main-perla {
+    display: flex;
+    gap: 4rem;
+    width: fit-content;
+    margin: auto;
+    padding: 6rem 4rem;
+}
+
+.eventDetails-main-info-perla h2 ,.eventDetails-main-info-perla p ,.eventDetails-main-info-perla h3,.eventDetails-main-info-perla span{
+    color: black;
+}
+
+.eventDetails-main-info-perla {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+    width: 500px;        
+}
+
+.eventDetails-main-info-perla p {
+    line-height: 1.65rem;
+}
+
+.eventDetails-main-info-perla h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.eventDetails-main-info-perla p {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;    
+    font-weight: 300;
+}
+
+.eventDetails-main-info-perla h3 {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: rgb(119, 119, 119);
+}
+
+.eventDetails-main-info-perla span {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+}
+
+.eventDetails-main-perla-aside {    
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: .5rem;
+    width: 300px;        
+}
+
+.eventDetails-main-perla-aside-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

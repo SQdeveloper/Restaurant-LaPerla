@@ -48,7 +48,7 @@ const Events = () => {
             <h1 className='events-title'>events</h1>
             <div className="events-group-grid">                
                 {events.map((event,index)=>(
-                    <EventBox key={index} event={event}/>
+                    <EventBox key={index} index={index} event={event}/>
                 ))}
             </div>
         </section>
