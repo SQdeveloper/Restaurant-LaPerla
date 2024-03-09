@@ -1,0 +1,42 @@
+.presentationInfo {
+    width: 100%;    
+    padding: 10rem 8rem;
+    margin: 0 auto;
+
+}
+
+.presentationInfo-title span:nth-child(2) {
+    margin-left: 8rem;
+}
+
+.presentationInfo-title span:nth-child(3) {
+    margin-left: 16rem;
+}
+
+.presentationInfo-title {
+    line-height: 5rem;
+    margin-top: 1rem;
+}
+
+.presentationInfo-title span {
+    display: block;
+    width: fit-content;
+    font-size: 5.5rem;
+}
+
+.presentationInfo-group {
+    display: flex;
+    gap: 6rem;
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+.presentationInfo-group-text {
+    width: 50%
+}
+
+.presentationInfo-group > img {
+    width: 50%;
+    height: 40rem;
+    object-fit: cover;
+}

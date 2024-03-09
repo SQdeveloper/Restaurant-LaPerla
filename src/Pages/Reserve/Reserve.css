@@ -1,0 +1,6 @@
+.reserve-main {
+    display: flex; 
+    justify-content: center;
+    padding: 8rem 0;
+    background-color: black;
+}

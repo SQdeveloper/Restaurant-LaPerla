@@ -16,7 +16,7 @@ const Header = () => {
                 <h1 className='header-main-title'><Link  href="/"><img src="/logo/logo-main.webp" alt="image of logo" /></Link></h1>
                 <div className="header-main-right header-main-group">
                     <ul>
-                        <li><Link to='/about' className='header-main-ancle' href="">About Us</Link></li>
+                        <li><Link to='/aboutUs' className='header-main-ancle' href="">About Us</Link></li>
                         <li><Link to='/contact' className='header-main-ancle' href="">Contact</Link></li>
                         <li><Link to='/reserve' className='header-main-ancle' href="">Reserve</Link></li>
                     </ul>
