@@ -11,6 +11,8 @@ import Home from './Pages/Home/Home';
 import './App.css';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Reserve from './Pages/Reserve/Reserve';
+import AngeBot from './Pages/AngeBot/AngeBot';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 
 function App() {  
@@ -53,8 +55,16 @@ function App() {
       element: <RenderComponent component={<AboutUs/>}/>
     },
     {
-      path: '/Reserve',
+      path: '/reserve',
       element: <RenderComponent component={<Reserve/>}/>
+    },
+    {
+      path: '/angebot',
+      element: <RenderComponent component={<AngeBot/>}/>
+    },
+    {
+      path: '/contact',
+      element: <RenderComponent component={<ContactUs/>}/>
     }
   ]);
 

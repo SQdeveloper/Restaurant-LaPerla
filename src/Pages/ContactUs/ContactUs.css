@@ -1,0 +1,64 @@
+.contactUs-main {
+    background-color: black;
+    padding: 8rem 4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contactUs-info {
+    flex: 1;
+}
+
+.contactUs-info ul {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contactUs-info ul hr {
+    width: 2rem;
+    margin: 2rem auto;
+    border: none;
+    border-bottom: 1px solid var(--color-brown);
+}
+
+.contactUs-main .section-formulario-textarea::placeholder, .contactUs-main .section-formulario-button ,.contactUs-main .section-formulario-title, .contactUs-main .events-input::placeholder {
+    color: white;
+}
+
+.contactUs-main .events-input, .contactUs-main .section-formulario-textarea {
+    background-color: black;
+    color: white;
+}
+
+.contactUs-main .events-input {
+    border-color: rgb(78, 78, 78);
+}
+
+.contactUs-main .section-formulario-button:hover {
+    background-color: var(--color-brown);
+}
+
+.contactUs-info li h2 {
+    margin-bottom: .9rem;
+}
+
+.contactUs-info li span {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(161, 161, 161);
+    font-family: "Roboto", sans-serif;
+}
+
+.contactUs-info li strong {
+    font-weight: bold;
+    text-transform: uppercase;    
+    color: rgb(212, 212, 212);
+    margin-right: .5rem;
+}
+
+.contactUs-info-hours {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}

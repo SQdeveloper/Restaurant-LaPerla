@@ -12,7 +12,7 @@ const Footer = () => {
                 <span>Landhausstrasse 17, 4663 Aarburg</span>
             </div>
             <section className="footer-info-hours">
-                <h2>ÖFFNUNGSZEITEN</h2>
+                <h2>OPENING HOURS</h2>
                 <span>
                     <strong>Montag:</strong>Geschlossen
                 </span>
