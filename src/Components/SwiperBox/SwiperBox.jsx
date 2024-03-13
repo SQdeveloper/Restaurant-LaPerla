@@ -10,7 +10,7 @@ const SwiperBox = ({number, img, subtitle, title, paragraph}) => {
                 <span className="swiper-subtitle subtitle">{subtitle}</span>
                 <h2 className='swiper-title'>{title}</h2>
                 <p className='swiper-description paragraph'>{paragraph}</p>
-                <Button text={'learn more'}/>
+                <Button urlRedirection={'/angebot'} text={'learn more'}/>
             </section>
         </div>
     );

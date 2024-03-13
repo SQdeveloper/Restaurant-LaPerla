@@ -3,7 +3,7 @@ import './EventsInput.css';
 
 const EventsInput = ({textPlaceHolder}) => {
     return (
-        <input className='events-input' type="text" placeholder={textPlaceHolder}/>
+        <input name='input' className='events-input' type="text" placeholder={textPlaceHolder}/>
     );
 };
 

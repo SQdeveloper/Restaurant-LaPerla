@@ -17,7 +17,7 @@ const Home = () => {
                         <span className="home-about-info-subtitle subtitle">About Us</span>
                         <h2>WITH PASSION AND HEART AND SOUL</h2>
                         <p className='paragraph'>Seit 2008 setzen wir uns dafür ein, allen unseren Gästen ein unvergessliches kulinarisches Erlebnis zu bieten. Der älteste Gewölbekeller im Kanton Aargau verleiht unserem Restaurant eine ganz besondere Atmosphäre und wir legen grossen Wert auf hervorragenden Service und ausgezeichnete Qualität der Speisen und Getränke. </p>
-                        <Button text={'learn more'}/>
+                        <Button urlRedirection={'/aboutus'} text={'learn more'}/>
                     </div>
                     <div className="home-about-contImage">
                         <img className='home-about-contImage-chef' src="/other-images/chef-home.webp" alt="image-chef" />
@@ -51,7 +51,7 @@ const Home = () => {
                         <div className="home-events-text-right">
                             <div className="home-events-text-right-group">                            
                                 <p className="paragraph">We present new specialties, organize unforgettable events and look forward to welcoming you in person soon.</p>
-                                <Button text={'learn more'}/>
+                                <Button urlRedirection='/events' text={'learn more'}/>
                             </div>
                         </div>
                     </div>

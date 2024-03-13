@@ -9,7 +9,7 @@ const SectionText = ()=>{
         <>
             <div className='aboutUs-title'>A PLACE WITH A LONG HISTORY AND A TEAM THAT IS MOTIVATED AND COMMITTED TO AN ENJOYABLE PRESENT AND FUTURE.</div>
             <p className='aboutUs-paragraph'>The heart of the restaurant, the vaulted cellar, is the oldest in the canton of Aargau. It was built in 1743 next to the Aare, an important trade route at the time. In 2008, Dini Hasani founded La Perla and the vaulted cellar became a stylish place for culinary enjoyment.The dedicated kitchen at La Perla transforms classic dishes into innovative new wonders of taste with creativity and great expertise. Dini Hasani and his team look forward to welcoming you to this gastronomic gem on the Aare.</p>
-            <Button text='learn more'/>
+            <Button urlRedirection={'/contact'} text='learn more'/>
         </>
     )
 }

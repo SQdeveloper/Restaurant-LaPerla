@@ -1,6 +1,7 @@
 import React from 'react';
-import './Footer.css';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
     return (
@@ -28,20 +29,20 @@ const Footer = () => {
             </section>
             <span className='footer-title'>WE LOOK FORWARD TO YOUR VISIT!</span>
             <hr className="footer-line" />
-            <Button text={'contact us now'}/>
+            <Button urlRedirection={'/contact'} text={'contact us now'}/>
             <nav>
                 <ul>
-                    <li><a href="">home</a></li><hr />
-                    <li><a href="">angebot</a></li><hr />
-                    <li><a href="">events</a></li><hr />
-                    <li><a href="">contact us</a></li><hr />
-                    <li><a href="">about us</a></li><hr />
-                    <li><a href="">reserve</a></li>
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/'>home</Link></li><hr />
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/angebot'>angebot</Link></li><hr />
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/events'>events</Link></li><hr />
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/contact'>contact us</Link></li><hr />
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/aboutus'>about us</Link></li><hr />
+                    <li><Link onClick={()=>{window.scrollTo({top:0})}} to='/reserve'>reserve</Link></li>
                 </ul>
             </nav>
             <div className="footer-redes">                
-                <a href="" target='_blank'><img src="/redes-sociales/facebook.svg" alt="image facebook" className="footer-redes-img" /></a>
-                <a href="" target='_blank'><img src="/redes-sociales/instagram.svg" alt="image instagram" className="footer-redes-img" /></a>
+                <a href=""><img src="/redes-sociales/facebook.svg" alt="image facebook" className="footer-redes-img" /></a>
+                <a href=""><img src="/redes-sociales/instagram.svg" alt="image instagram" className="footer-redes-img" /></a>
             </div>            
         </footer>
     );

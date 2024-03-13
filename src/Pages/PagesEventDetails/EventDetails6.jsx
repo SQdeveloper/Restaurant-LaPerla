@@ -17,7 +17,7 @@ const EventDetails5 = () => {
 
                 <h2>ONLY THE BEST FOR YOU</h2>
                 <p>We are convinced that a good glass of wine is part of an all-round successful dinner. To give you a unique taste experience at our events, we only work with the best wineries in the region. Together we will find the ideal wine accompaniment for the evening's menu so that you can enjoy a harmonious combination of delicious food and exquisite wines. Get to know new flavors and the diversity of regional wine culture.</p>
-                <Button text='events'/>
+                <Button urlRedirection={'/events'} text='events'/>
             </section>
 
         </>

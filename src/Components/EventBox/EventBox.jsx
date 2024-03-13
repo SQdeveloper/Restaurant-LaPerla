@@ -4,7 +4,7 @@ import './EventBox.css';
 
 const EventBox = ({event,index}) => {
     return (
-        <Link to={`/events/details/${index + 1}`} className='events-box' href="">
+        <Link onClick={()=>{window.scrollTo({top:0})}} to={`/events/details/${index + 1}`} className='events-box' href="">
             <div className="events-box-Bgimage">
                 <img src={event.image} alt="img-bg" />
             </div>

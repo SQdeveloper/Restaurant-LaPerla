@@ -1,0 +1,40 @@
+.buttonScrollTop {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    right: 1rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    z-index: 3;
+    transition: background-color .3s;    
+    border: 1px solid var(--color-brown);
+    background-color: black;    
+    animation: hidden .5s both;
+    animation-timeline: scroll();
+    animation-range: 0 300px;
+}
+
+@keyframes hidden {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.buttonScrollTop:hover {    
+    background-color: var(--color-brown);
+}
+
+.buttonScrollTop svg {
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 28px;
+    height: 28px;    
+    object-fit: cover;
+    transition: fill .3s;    
+}

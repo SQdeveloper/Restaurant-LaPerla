@@ -8,11 +8,11 @@ import EventDetails5 from './Pages/PagesEventDetails/EventDetails5';
 import EventDetails6 from './Pages/PagesEventDetails/EventDetails6';
 import Events from './Pages/Events/Events';
 import Home from './Pages/Home/Home';
-import './App.css';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Reserve from './Pages/Reserve/Reserve';
 import AngeBot from './Pages/AngeBot/AngeBot';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import './App.css';
 
 
 function App() {  
