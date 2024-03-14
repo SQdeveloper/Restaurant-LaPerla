@@ -32,6 +32,12 @@ const Home = () => {
                 </section>
                 <SwiperHome/>
                 <section className="home-events">
+                    <div className="home-events-top-responsive">
+                        <span className='subtitle'>EVENTS</span>
+                        <h2>KULINARISCHE HIGHLIGHTS</h2>
+                        <p className="paragraph">We present new specialties, organize unforgettable events and look forward to welcoming you in person soon.</p>
+                                <Button urlRedirection='/events' text={'learn more'}/>
+                    </div>
                     <div className="home-events-top">
                         <div className="home-events-image-left">
                             <img src="/other-images/cops.webp" alt="image-food" />

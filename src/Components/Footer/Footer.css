@@ -95,3 +95,15 @@
 .footer-redes a:hover > img{
     filter: invert(63%) sepia(5%) saturate(2344%) hue-rotate(348deg) brightness(93%) contrast(81%);
 }
+
+@media (max-width:1050px) {
+    .footer .footer-title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:580px) {
+    .footer .footer-title {
+        font-size: 3rem;
+    }
+}

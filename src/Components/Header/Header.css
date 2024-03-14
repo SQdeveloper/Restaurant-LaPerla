@@ -47,3 +47,19 @@
 .header-main-ancle:hover {
     color: var(--color-brown);
 }
+
+@media (max-width: 900px) {
+    .header-main-left ul, .header-main-right ul {
+        display: none;
+    }
+    .header-main-left img {
+        width: 33px;
+        height: 33px;
+        filter: invert(100%);
+    }    
+    .header-main-right svg {        
+        width: 23px;
+        height: 23px;
+        filter: invert(100%);
+    }
+}

@@ -71,8 +71,16 @@
 
 .swiper-button-prev {
     left: 87%;
+    transform: translateX(-4.5rem);
 }
 
 .swiper-button-next {
-    left: 93%;    
+    left: 87%;    
+}
+
+@media (max-width: 1065px){
+    .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {        
+        left: 10%;
+        width: 55%;
+    }    
 }
