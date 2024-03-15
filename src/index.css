@@ -53,3 +53,9 @@ input {
   font-size: 1.1rem;
   color: rgb(168, 168, 168);
 }
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1rem;
+  }
+}

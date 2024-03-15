@@ -42,3 +42,21 @@
     font-weight: bold;
     color: rgb(119, 119, 119);
 }
+
+@media (max-width: 1024px) {
+    .eventDetails-main {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventDetails-main {
+        flex-direction: column;        
+    }    
+}
+
+@media (max-width: 425px) {
+    .eventDetails-main {
+        padding: 4rem 1rem;
+    }
+}

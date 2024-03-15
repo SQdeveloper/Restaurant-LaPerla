@@ -27,6 +27,7 @@
 .headerSection-text-main {
     font-size: 6rem;
     margin: .3rem 0 2rem 0;    
+    padding: 0 1rem;
 }
 
 .headerSection-text span {
@@ -39,4 +40,24 @@
 
 .headerSection-text-subtitle {
     font-size: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .headerSection-text-main {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerSection-text-main {
+        font-size: 3rem;
+        margin-top: 1.2rem;
+    }    
+}
+
+@media (max-width: 425px) {
+    .headerSection-text-subtitle.subtitle {
+        font-size: 1.1rem;
+    }
 }

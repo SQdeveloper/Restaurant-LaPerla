@@ -275,6 +275,9 @@
     .home-about {
         flex-direction: column;
     }
+    .home-about-info p {
+        width: 100%;
+    }
     .home-about-info h2 {
         font-size: 4rem;
         line-height: 4rem;
@@ -409,12 +412,12 @@
 }
 
 @media (max-width: 900px) {
-    .swiper {
+    .home-angebot .swiper {
         padding-top: 3rem;
         margin-top: 1rem;
     }
     .swiper-box {
-        width: 90%;
+        width: 100%;
     }
     .swiper-number {
         left: 5.5rem;
@@ -444,11 +447,22 @@
 
     /* ABOUT */
     .home-about-info h2 {
-        font-size: 3rem;
+        font-size: 2.6rem;
         line-height: 3.2rem;
+    }
+    .home-about-contImage-chef {
+        height: 20rem;
+    }
+    .home-about-contImage-flower {     
+        width: 65%;
+        transform: translateY(30%);
+        height: 14rem;
     }
     
     /* ANGEBOT */
+    .home-angebot {
+        padding-top: 11rem;
+    }
     .home-angebot-title span:nth-child(2) {
         margin-left: 0;
     }
@@ -457,11 +471,19 @@
         font-size: 3rem;
     }
     .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
-        margin-left: 1.7rem;
+        margin-left: 1.7rem;    
     }
     /* EVENTS */
     .home-events-top-responsive h2 {
         font-size: 3rem;
+    }
+    .home-events-top > .home-events-image-left {
+        height: 20rem;
+    }
+    .home-events-top > .home-events-image-right {
+        width: 65%;
+        /* transform: translateY(50%); */
+        height: 14rem;
     }
 
     /* CLIENTS */
@@ -469,11 +491,22 @@
         font-size: 3rem;
     }
 
+    .swiper-clients {
+        width: calc(100% - 3rem);        
+        margin: 0 auto;
+    }
+
     /* BANNER */
     .home-banner-group-middle {
         padding: 4rem 0;
     }
     .home-banner-group {
-        height: 20rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
+        margin-left: 0;            
     }
 }

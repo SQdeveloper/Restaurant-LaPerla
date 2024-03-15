@@ -84,3 +84,9 @@
         width: 55%;
     }    
 }
+
+@media (max-width: 480px){    
+    .swiper-button-next, .swiper-button-prev {
+        left: 80%;
+    }    
+}

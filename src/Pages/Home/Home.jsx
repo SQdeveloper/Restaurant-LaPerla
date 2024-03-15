@@ -29,8 +29,8 @@ const Home = () => {
                     <span className='home-angebot-subtitle subtitle'>ANGEBOT</span>
                     <h2 className="home-angebot-title"><span>A DREAM</span><span>FOR THE GAUMEN</span></h2>
                     <p className="home-angebot-description paragraph">Get an insight into our exquisite range of dishes and our diverse selection of quality wines.</p>
+                    <SwiperHome/>
                 </section>
-                <SwiperHome/>
                 <section className="home-events">
                     <div className="home-events-top-responsive">
                         <span className='subtitle'>EVENTS</span>

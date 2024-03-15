@@ -48,6 +48,10 @@
     color: var(--color-brown);
 }
 
+.header-main-component-invisible {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .header-main-left ul, .header-main-right ul {
         display: none;
@@ -61,5 +65,14 @@
         width: 23px;
         height: 23px;
         filter: invert(100%);
+    }
+    .header-main-component-invisible {
+        display: block;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-main-title img {
+        width: 10rem;        
     }
 }

@@ -15,3 +15,31 @@
     gap: 3rem;
     margin-top: 5rem;
 }
+
+@media (max-width: 1024px) {
+    .events-title {
+        font-size: 4rem;
+    }
+    .events {
+        padding: 10rem 3rem 5rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .events-group-grid {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .events-title {
+        font-size: 3.2rem;
+    }
+    .events {
+        padding: 10rem 1rem 5rem 1rem;
+    }
+    .events-group-grid {
+        margin-top: 3.1rem;
+        grid-template-columns: 1fr;
+    }
+}

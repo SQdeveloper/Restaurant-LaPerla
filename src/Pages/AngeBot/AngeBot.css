@@ -137,3 +137,51 @@
 .angebot-invite .button-ancle span {
     color: black;
 }
+
+@media (max-width: 1024px) {
+    .angebot-description {
+        font-size: 1.3rem;
+        margin: 8rem auto;
+        width: 90%;
+    }    
+    .angebot-section-text-title {
+        font-size: 1.3rem;
+    }
+    .angebot-image-middle {
+        width: 22rem;
+        height: 16rem;
+    }
+    .angebot-invite h2 {
+        font-size: 4rem;
+    }
+    .angebot-invite {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .angebot-description  {
+        font-size: 1.2rem;
+    }
+    .angebot-invite h2 {
+        font-size: 3rem;
+        line-height: 3.3rem;
+    }
+    .angebot-invite {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .angebot-description {
+        width: 100%;
+        padding: 0 1rem;
+        margin: 5rem auto 7rem auto;
+    }
+    .angebot-image-middle{
+        margin: 0;
+        padding: 0 1rem;
+        width: 100%;
+        height: 15rem;
+    }    
+}
