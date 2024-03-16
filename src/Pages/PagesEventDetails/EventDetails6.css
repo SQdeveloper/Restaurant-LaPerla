@@ -35,6 +35,8 @@
 
 .eventDetails-main-last-group-images img:nth-child(2){
     flex: 1;
+    width: 10%;
+    object-position: left;
 }
 
 .eventDetails-main-last-group-images img {
@@ -58,4 +60,36 @@
 
 .eventDetails-main-last .button-ancle span {
     color: black;
+}
+
+@media (max-width: 1024px) { 
+    .eventDetails-main-last-group-images img {
+        height: 25rem;
+    }
+    .eventDetails-main-last-group-images img:first-child {
+        width: 17rem;
+    }
+}
+
+@media (max-width: 768px) { 
+    .eventDetails-main-last-group-images {
+        flex-direction: column;
+    }
+    .eventDetails-main-last-group-images img:first-child {
+        width: 100%;
+        height:auto;
+    }
+    .eventDetails-main-last-group-images img:nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) { 
+    .eventDetails-main-last {
+        padding: 5rem 1.2rem;
+    }       
+    .eventDetails-main-last-group-images img:nth-child(2) {
+        height: 20rem;
+        flex: none;
+    }
 }

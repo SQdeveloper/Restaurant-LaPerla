@@ -1,8 +1,13 @@
+.contactUs {
+    background-color: black;
+}
 .contactUs-main {
     background-color: black;
     padding: 8rem 4rem;
     display: flex;
     gap: 1rem;
+    max-width: 1420px;
+    margin: auto;
 }
 
 .contactUs-info {
@@ -11,8 +16,7 @@
 
 .contactUs-info ul {
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
+    width: 80%;    
 }
 
 .contactUs-info ul hr {
@@ -61,4 +65,26 @@
     display: flex;
     flex-direction: column;
     gap: .8rem;
+}
+
+@media (max-width: 1024px) {
+    .contactUs-main {
+        padding: 7rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactUs-main {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .contactUs-info ul {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactUs-main {
+        padding: 5rem 1.2rem;
+    }
 }

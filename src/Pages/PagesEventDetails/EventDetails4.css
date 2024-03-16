@@ -13,3 +13,27 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+    .eventDetails-main-tapas {
+        padding: 5rem 4rem;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .eventDetails-main-tapas-img img {
+        height: 25rem;
+    }
+    .eventDetails-main-tapas .section-formulario {
+        align-items: center;
+    }
+
+    .eventDetails-main-tapas .section-formulario input, .section-formulario-textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventDetails-main-tapas {
+        padding: 5rem 2rem;
+    }
+}

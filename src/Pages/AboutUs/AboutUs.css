@@ -67,3 +67,41 @@
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .aboutUs-second-chef-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutUs-image-middle {
+        width: 100%;
+        padding: 2rem;
+        height: 21rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .aboutUs .presentationInfo:nth-child(2) {
+        padding-top: 5rem;        
+    }
+    .aboutUs-image-middle {
+        height: 18rem;
+    }
+    .aboutUs .presentationInfo:nth-child(4) {
+        padding-top: 8.5rem;
+        padding-bottom: 7rem;
+    }
+    .aboutUs .presentationInfo:nth-child(4) aside {
+        flex-direction: column-reverse;
+    }
+    .aboutUs-second-chef-title {
+        margin: 0.2rem 0 1rem;
+        font-size: 3.2rem;
+    }
+    .aboutUs-image-middle {        
+        padding: 1rem;          
+    }
+}

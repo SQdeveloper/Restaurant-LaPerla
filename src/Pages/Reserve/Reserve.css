@@ -4,3 +4,15 @@
     padding: 8rem 0;
     background-color: black;
 }
+
+@media (max-width: 768px) {
+    .reserve-main {
+        padding: 7rem 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .reserve-main {
+        padding: 6rem 0 0;
+    }
+}

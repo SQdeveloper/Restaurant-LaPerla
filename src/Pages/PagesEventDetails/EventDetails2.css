@@ -1,7 +1,7 @@
 .eventDetails-main-perla {
     display: flex;
     gap: 4rem;
-    width: fit-content;
+    justify-content: center;
     margin: auto;
     padding: 6rem 4rem;
 }
@@ -51,12 +51,46 @@
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
-    gap: .5rem;
-    width: 300px;        
+    gap: .5rem;    
 }
 
 .eventDetails-main-perla-aside-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .eventDetails-main-perla {
+        gap: 2.5rem;
+        padding: 5rem 2rem;
+    }
+    .eventDetails-main-perla-aside {
+        grid-template-columns: repeat(4, 80px);
+        grid-template-rows: repeat(4, 80px);
+    }
+}
+
+@media (max-width: 860px) {
+    .eventDetails-main-perla {
+        flex-direction: column;
+    }
+    .eventDetails-main-info-perla{
+        width: 100%;
+    }
+    .eventDetails-main-perla-aside {
+        grid-template-columns: repeat(3, minmax(50px, 1fr));
+        grid-template-rows: none;
+        width: 100%;        
+    }
+    .eventDetails-main-perla-aside-img {
+        aspect-ratio: 4/4;        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .eventDetails-main-perla {
+        padding: 5rem 1rem;
+    }
 }

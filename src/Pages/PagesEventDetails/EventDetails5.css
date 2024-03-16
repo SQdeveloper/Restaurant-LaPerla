@@ -14,3 +14,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+    .eventDetails-main-bindella {
+        padding: 7rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventDetails-main-bindella {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .eventDetails-main-bindella {
+        padding: 5rem 2rem;
+        gap: 4rem;
+    }
+}

@@ -75,3 +75,16 @@
     width: 22px;
     height: 22px;
 }
+
+@media (max-width: 1024px) {
+    .eventDetails-main-dinner {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventDetails-main-dinner {
+        flex-direction: column;
+    }
+}
