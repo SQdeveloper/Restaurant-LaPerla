@@ -50,6 +50,27 @@
 
 .header-main-component-invisible {
     display: none;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header-main-line-menu {
+    display: block;
+    width: 1.6rem;
+    height: 2px;
+    background-color: white;    
+    transition: transform .4s, opacity .4s;
+}
+
+.header-main-line-menu.open:nth-child(1) {
+    transform: rotate(45deg) translate(0, 8px);
+}
+.header-main-line-menu.open:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.header-main-line-menu.open:nth-child(3) {
+    transform: rotate(-45deg) translate(0, -8px);
 }
 
 @media (max-width: 900px) {
@@ -67,7 +88,7 @@
         filter: invert(100%);
     }
     .header-main-component-invisible {
-        display: block;
+        display: flex;
     }
 }
 

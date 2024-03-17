@@ -38,6 +38,10 @@ input {
   outline: none;
 }
 
+body.noScroll {
+  overflow: hidden;   
+}
+
 .subtitle {
   color: var(--color-brown);
   font-family: "Roboto", sans-serif;

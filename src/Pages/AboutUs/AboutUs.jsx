@@ -29,7 +29,7 @@ const SectionText2 = ()=>{
 const AboutUs = () => {
     return (
         <section className='aboutUs'>
-            <HeaderSection firstPartTitle={'TRADITION COMBINED'} secondPartTitle={'WITH CREATIVITY'} bgImage='https://www.laperla-aarburg.ch/wp-content/uploads/2023/02/DSC08273-scaled.jpg'/>
+            <HeaderSection subtitle={'about us'} firstPartTitle={'TRADITION COMBINED'} secondPartTitle={'WITH CREATIVITY'} bgImage='https://www.laperla-aarburg.ch/wp-content/uploads/2023/02/DSC08273-scaled.jpg'/>
             <PresentationInfo bgColor='black' subtitle='OUR HISTORY' firstPartTitle={'LANGE TRADITION'} secondPartTitle={'AND NUMEROUS'} thirdPartTitle={'SATISFIED GUESTS'} child={<SectionText/>} urlImage={'https://www.laperla-aarburg.ch/wp-content/uploads/2023/02/DSC09331-scaled.jpg'}/>
             <div className="aboutUs-contentImage-middle">
                 <img src="https://www.laperla-aarburg.ch/wp-content/uploads/2023/02/DSC08305-scaled.jpg" alt="bg-image" className="aboutUs-image-middle" />

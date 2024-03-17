@@ -51,7 +51,7 @@ function App() {
       element: <RenderComponent component={<EventDetails6/>}/>
     },
     {
-      path: '/aboutUs',
+      path: '/aboutus',
       element: <RenderComponent component={<AboutUs/>}/>
     },
     {
